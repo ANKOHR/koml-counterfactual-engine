@@ -1,0 +1,13 @@
+Test count: 30 passed (pytest, Python 3.12.10).
+Local implementation commit hash: dc09b6a30610ab21cbf63de949241b63b4c9c7dd
+Installed CLI demo runtime: 0.612 seconds for 200 records.
+
+Built a deterministic, local-only Python kce CLI with fixtures, run, report,
+compare and validate commands, pure input-based counterfactual arithmetic,
+explicit hypothetical labels and real/synthetic provenance, independent
+hand-computed fixture expectations, adversarial tests and atomic report writes.
+All planted cases and totals reconcile exactly with zero false positives.
+README, lessons, acceptance evidence and the two-week improvement hook are
+recorded; the real-use verdict remains pending. No publishing was performed.
+This file records the implementation commit; a subsequent documentation-only
+commit adds this completion record, avoiding a self-referential commit hash.
