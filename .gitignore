@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.kce/
+demo/
+koml-counterfactual-engine-codex.log
+koml-counterfactual-engine-launch.py
+koml-counterfactual-engine-prompt.txt

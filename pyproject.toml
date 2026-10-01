@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "koml-counterfactual-engine"
+version = "0.1.0"
+description = "Deterministic, explicitly hypothetical decision comparisons"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+kce = "koml_counterfactual_engine.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["koml_counterfactual_engine*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
